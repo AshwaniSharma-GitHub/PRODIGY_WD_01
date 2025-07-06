@@ -15,6 +15,11 @@ body {
   width: 100%;
   background: transparent;
   padding: 1rem;
+  transition: background 0.3s ease;
+}
+
+#navbar.scrolled {
+  background: #17223b;
 }
 
 .nav-container {
@@ -46,6 +51,7 @@ body {
   color: #38bdf8;
 }
 
+/* Hero Section */
 .hero {
   height: 100vh;
   display: flex;
